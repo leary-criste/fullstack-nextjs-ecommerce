@@ -14,4 +14,4 @@ export const useAuth = () => {
       } as const),
     [session, status]
   );
-};
+};
