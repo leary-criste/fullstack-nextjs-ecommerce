@@ -17,4 +17,4 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   } catch {
     res.status(500);
   }
-};
+};
