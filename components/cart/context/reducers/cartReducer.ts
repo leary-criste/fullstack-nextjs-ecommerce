@@ -60,4 +60,4 @@ export const cartReducer = (state: State, action: Action) => {
       throw new Error(`Unhandled action type`);
     }
   }
-};
+};
