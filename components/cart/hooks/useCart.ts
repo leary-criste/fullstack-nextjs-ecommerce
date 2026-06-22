@@ -8,4 +8,4 @@ export const useCart = () => {
     throw new Error("useCount must be used within a CountProvider");
   }
   return useMemo(() => context, [context]);
-};
+};
