@@ -13,4 +13,4 @@ declare module 'next/app' {
       session?: Session;
     };
   };
-}
+}
