@@ -11,4 +11,4 @@ export const checkoutCart = async (products: Array<Prisma.Product>) => {
     body: stripeItems,
     schema: stripeSessionSchema,
   });
-};
+};
