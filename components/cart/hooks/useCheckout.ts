@@ -7,4 +7,4 @@ export const useCheckout = () => {
   return useMutation((products: Array<Prisma.Product>) => checkoutCart(products), {
     onSuccess: redirectToCheckout,
   });
-};
+};
