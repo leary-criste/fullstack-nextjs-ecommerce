@@ -11,4 +11,4 @@ export const buyProduct = async (product: Prisma.Product) => {
     body: [stripeItem],
     schema: stripeSessionSchema,
   });
-};
+};
