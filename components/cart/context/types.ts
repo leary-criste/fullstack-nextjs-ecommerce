@@ -10,4 +10,4 @@ export type State = {
   readonly products: Array<Prisma.Product>;
   readonly totalPrice: number;
   readonly isOpen: boolean;
-};
+};
