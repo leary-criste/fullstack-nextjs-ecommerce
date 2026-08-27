@@ -6,4 +6,4 @@ export const getProducts = async () => {
     method: 'GET',
     schema: productsSchema,
   });
-};
+};
